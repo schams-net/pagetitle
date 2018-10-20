@@ -1,0 +1,13 @@
+# Page Title
+#
+
+plugin.tx_pagetitle {
+	view {
+		# cat=plugin.tx_pagetitle/file; type=string; label=Path to template root (FE)
+		templateRootPaths.10 = EXT:pagetitle/Resources/Private/Templates/
+		# cat=plugin.tx_pagetitle/file; type=string; label=Path to template partials (FE)
+		partialRootPaths.10 = EXT:pagetitle/Resources/Private/Partials/
+		# cat=plugin.tx_pagetitle/file; type=string; label=Path to template layouts (FE)
+		layoutRootPaths.10 = EXT:pagetitle/Resources/Private/Layouts/
+	}
+}

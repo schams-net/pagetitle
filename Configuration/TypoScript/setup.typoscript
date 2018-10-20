@@ -1,0 +1,16 @@
+# Page Title
+
+config.pageTitleProviders {
+    tx_pagetitle {
+        provider = SchamsNet\Pagetitle\PageTitle\PageTitleProvider
+        before = record
+    }
+}
+
+plugin.tx_pagetitle {
+	view {
+		templateRootPaths = {$plugin.tx_pagetitle.view.templateRootPaths}
+		partialRootPaths = {$plugin.tx_pagetitle.view.partialRootPaths}
+		layoutRootPaths = {$plugin.tx_pagetitle.view.layoutRootPaths}
+	}
+}

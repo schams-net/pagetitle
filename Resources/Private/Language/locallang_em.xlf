@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+    <file source-language="en" datatype="plaintext" original="messages" date="2018-10-20T05:38:33Z" product-name="pagetitle">
+        <header/>
+        <body>
+            <trans-unit id="extension_name">
+                <source>Page Title</source>
+            </trans-unit>
+            <trans-unit id="extension_key">
+                <source>pagetitle</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
